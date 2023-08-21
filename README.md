@@ -55,7 +55,7 @@ These are some of the images of the pages in the website:
 
 | Happy hour                                       | our menu                                          |
 | -------------------------------------------------| ------------------------------------------------- |
-|  ![hour](/streetfood-website/images/ourmenu.jpeg)| ![menu](/streetfood-website/images/happyhour.jpeg)|
+|  ![hour](./images/ourmenu.jpeg)                  | ![menu](./images/happyhour.jpeg)                  |
 
 
 ## Author
