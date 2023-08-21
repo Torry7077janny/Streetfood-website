@@ -1,0 +1,150 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+    body{
+    background: none repeat scroll0 0;
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height:1.5em;
+    background-color:#C9ECB5;
+}
+.inner-navbar{
+    margin: 0 auto;
+    width: 1170px;
+}
+.inner-navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.inner-navbar ul li{
+    float: none;
+    display: inline-block;
+}
+
+.inner-navbar ul li:nth-child(1){
+    float: left;
+}
+
+.inner-navbar ul li:nth-child(2){
+    float: left;
+}
+
+.inner-navbar ul li:nth-child(3){
+    float: left;
+}
+
+.inner-navbar ul li:nth-child(4){
+    float: left;
+}
+
+
+.inner-navbar ul li a{
+    line-height: 80px;
+    color:black;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: poppins;
+}
+
+.inner-navbar ul li a:hover{  
+    background: rgba(0,0,0,0.7);
+    border-radius:6px;
+}
+#main{
+    width: 100%;
+    position: relative;
+}
+#logo{
+    width:300px;
+    height:300px;
+    position:relative;
+    left:50%;
+    top: 0;
+    content: "";
+    margin-left: -150px;
+}
+header h1{
+    text-align: center;
+    font-size: 30px;
+}
+header h1 span{
+    color: #6CB840;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.image1{
+    
+    height: 600px;
+}
+.image2{
+    
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    position: absolute;
+    top:40%;
+    left:20%;
+}
+.inner-content{
+
+    display: flex;
+    flex:1;
+    justify-content: baseline;
+}
+.text{
+    height:20px;
+    align-items:left;
+}
+
+.text h1{
+    color:#6CB840;
+    font-size: 3.5em;
+    line-height: 1.3em; 
+    font-weight: 500px;
+}
+
+.text h2{
+    color: black;
+    font-size: 2em; 
+    font-weight: 900;
+    line-height: 1.0em;
+}
+
+.content .text p{
+    color:black;
+    align-items: left;
+    justify-content:center;
+    text-align:left;
+    padding-left:2em;
+}
+
+
+
