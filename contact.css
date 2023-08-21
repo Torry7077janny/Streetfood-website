@@ -1,5 +1,5 @@
 body{
-    /* background: none repeat scroll0 0; */
+    background: none repeat scroll0 0; 
     font-family: poppins;
     font-size: 15px;
     font-weight: 400;
@@ -83,44 +83,32 @@ header h1 span{
     align-items: center;
     text-align: center;
 }
-.box{
+.email-container{
+    
     display: flex;
-    align-items: center;
     justify-content: center;
-    height:10vh;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
 }
-.form-box{
-    padding: 10px;
-    border-radius: 20px;
-    background: #fff;
-    /* box-shadow:10px 10px 15px #6CB840,-10px -10px 15px #fff; */
-}
-.form-box input{
-    font-size: 18px;
-    color:black;
-    padding: 5px 5px;
+#email{
     border: none;
-    outline:none;
-    background: #fff;
+    border-radius: 10px;
+    width:200px;
+    height:25px;
+    padding:5px;
 }
-/* code for button */
- #button{ 
-    margin: 0;
-    padding: 0;
-     color: #fff;
-     background:#6CB840;
-    width: 150px;
-    height: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+button{
+    border: none;
+    border-radius: 7px;
+    background-color: #6CB840;
+    margin-top: 20px;
+    Width:150px;
+    height:40px;
     text-align: center;
-    font-size:20px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    cursor:pointer;
- }
+    border-radius: 20px;
+    align-items: center;
+}
   
   .container{
     max-width: 1170px;
@@ -141,11 +129,20 @@ header h1 span{
   }
   .footer-column{
     width: 25%;
-    footer-item1::after{
-        border-right: 3px dashed black;
-    }
+    
     /* padding: 0 15px; */
         
+  }
+  #footer-column1::after{
+    border-right:3px dashed black;
+  }
+  #footer-item::after{
+    content: "";
+    position: absolute;
+    top:0;
+    right:50px;
+    height:100%
+    
   }
   .footer-column h4{
     font-size: 18px;
