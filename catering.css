@@ -1,10 +1,14 @@
 body{
     background: none repeat scroll0 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: poppins;
     font-size: 15px;
     font-weight: 400;
     line-height:1.5em;
     background-color: lightgray;
+    background: url(./images/background3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .inner-navbar{
     margin: 0 auto;
@@ -41,11 +45,11 @@ body{
 
 .inner-navbar ul li a{
     line-height: 80px;
-    color:black;
+    color:yellow;
     padding: 12px 30px;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     font-family: poppins;
 }
@@ -66,6 +70,21 @@ body{
     top: 0;
     content: "";
     margin-left: -150px;
+}
+h1{
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+p{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.1em;
+    color:black;
+
 }
 
 
