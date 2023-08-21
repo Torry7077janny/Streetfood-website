@@ -132,9 +132,10 @@ button{
     
     /* padding: 0 15px; */
         
-  }
-  #footer-column1::after{
-    border-right:3px dashed black;
+  }#footer-column1 :first-child  {
+    border-right:3px dashed black ;
+    padding-right: 20px;
+    height: 70px;
   }
   #footer-item::after{
     content: "";
@@ -142,7 +143,7 @@ button{
     top:0;
     right:50px;
     height:100%
-    
+
   }
   .footer-column h4{
     font-size: 18px;
